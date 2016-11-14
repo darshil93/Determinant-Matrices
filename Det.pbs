@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=4,walltime=30:00 
+#PBS -N ass2
+#PBS -q edu_shared
+#PBS -m abe
+#PBS -M akatej2@uic.edu
+
+#PBS -e det.err
+#PBS -o det.out
+#PBS -d /export/home/akatej2
+
+
+module load tools/mpich2-1.5-gcc
+
+mpirun -machinefile $PBS_NODEFILE -np $PBS_NP ./Det

@@ -1,0 +1,7 @@
+(compute-1-32.local(0/4)[0][0]: Generating 4096 random numbers using 4 physical processors
+(compute-1-32.local(0/4)[0][0]: It took 0.00000001s to receive the sub-array
+(compute-1-32.local(1/4)[0][1]: It took 0.00000001s to receive the sub-array
+(compute-1-32.local(2/4)[1][0]: It took 0.00000001s to receive the sub-array
+(compute-1-32.local(3/4)[1][1]: It took 0.00000001s to receive the sub-array
+Determinant is 27612238.000000
+Job complete
